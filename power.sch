@@ -1,0 +1,453 @@
+EESchema Schematic File Version 2
+LIBS:tinyFISH-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:custom
+LIBS:tinyFISH-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 5
+Title ""
+Date "14 sep 2016"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L APE8865Y5-30-HF-3 U3
+U 1 1 5814BAD2
+P 3350 1650
+F 0 "U3" H 3350 2013 40  0000 C CNN
+F 1 "LP2985AIM5-3.0/NOPB" H 3350 1937 40  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 3350 1865 35  0001 C CIN
+F 3 "" H 3350 1650 60  0000 C CNN
+	1    3350 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CUSTOM_C C17
+U 1 1 5814BAD9
+P 2300 1950
+F 0 "C17" H 2415 1988 40  0000 L CNN
+F 1 "1u" H 2415 1912 40  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 2338 1800 30  0001 C CNN
+F 3 "" H 2300 1950 60  0000 C CNN
+	1    2300 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CUSTOM_C C18
+U 1 1 5814BAE0
+P 4275 1975
+F 0 "C18" H 4390 2013 40  0000 L CNN
+F 1 "4u7" H 4390 1937 40  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 4313 1825 30  0001 C CNN
+F 3 "" H 4275 1975 60  0000 C CNN
+	1    4275 1975
+	1    0    0    -1  
+$EndComp
+Text GLabel 1750 1600 0    60   Input ~ 0
+VBAT
+$Comp
+L GND #PWR019
+U 1 1 5814BAE8
+P 1750 2425
+F 0 "#PWR019" H 1750 2425 30  0001 C CNN
+F 1 "GND" H 1750 2355 30  0001 C CNN
+F 2 "" H 1750 2425 60  0001 C CNN
+F 3 "" H 1750 2425 60  0001 C CNN
+	1    1750 2425
+	1    0    0    -1  
+$EndComp
+Text GLabel 4725 1600 2    60   Input ~ 0
+3V
+$Comp
+L CUSTOM_R R12
+U 1 1 581781E7
+P 3525 4225
+F 0 "R12" V 3605 4225 40  0000 C CNN
+F 1 "0R005" V 3532 4226 40  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 3455 4225 30  0001 C CNN
+F 3 "~" H 3525 4225 30  0000 C CNN
+	1    3525 4225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CUSTOM_R R13
+U 1 1 581781E8
+P 4425 5525
+F 0 "R13" V 4505 5525 40  0000 C CNN
+F 1 "30k" V 4432 5526 40  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 4355 5525 30  0001 C CNN
+F 3 "~" H 4425 5525 30  0000 C CNN
+	1    4425 5525
+	1    0    0    -1  
+$EndComp
+$Comp
+L CUSTOM_C C26
+U 1 1 581781E9
+P 2375 5125
+F 0 "C26" H 2375 5225 40  0000 L CNN
+F 1 "100n" H 2381 5040 40  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 2413 4975 30  0001 C CNN
+F 3 "~" H 2375 5125 60  0000 C CNN
+	1    2375 5125
+	-1   0    0    1   
+$EndComp
+$Comp
+L CUSTOM_R R10
+U 1 1 581781EC
+P 2825 4575
+F 0 "R10" V 2905 4575 40  0000 C CNN
+F 1 "10k" V 2832 4576 40  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 2755 4575 30  0001 C CNN
+F 3 "~" H 2825 4575 30  0000 C CNN
+	1    2825 4575
+	-1   0    0    1   
+$EndComp
+$Comp
+L CUSTOM_R R11
+U 1 1 581781ED
+P 2825 5525
+F 0 "R11" V 2905 5525 40  0000 C CNN
+F 1 "1k" V 2832 5526 40  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 2755 5525 30  0001 C CNN
+F 3 "~" H 2825 5525 30  0000 C CNN
+	1    2825 5525
+	-1   0    0    1   
+$EndComp
+$Comp
+L CUSTOM_C C27
+U 1 1 581781EE
+P 3125 5525
+F 0 "C27" H 3125 5625 40  0000 L CNN
+F 1 "100n" H 3131 5440 40  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 3163 5375 30  0001 C CNN
+F 3 "~" H 3125 5525 60  0000 C CNN
+	1    3125 5525
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 GND_OUT1
+U 1 1 581781F3
+P 5075 5325
+F 0 "GND_OUT1" H 5155 5325 40  0000 L CNN
+F 1 "GND" H 5075 5380 30  0001 C CNN
+F 2 "custom:PAD_2x3" H 5075 5325 60  0001 C CNN
+F 3 "" H 5075 5325 60  0000 C CNN
+	1    5075 5325
+	1    0    0    -1  
+$EndComp
+$Comp
+L DBV U7
+U 1 1 581781F4
+P 3425 3575
+F 0 "U7" H 3525 3225 60  0000 C CNN
+F 1 "INA139" H 3525 3875 60  0001 C CNN
+F 2 "custom:DBV" H 3425 3575 60  0001 C CNN
+F 3 "" H 3425 3575 60  0000 C CNN
+	1    3425 3575
+	1    0    0    -1  
+$EndComp
+$Comp
+L CUSTOM_C C28
+U 1 1 581781F5
+P 4225 5525
+F 0 "C28" H 4225 5625 40  0000 L CNN
+F 1 "NC" H 4231 5440 40  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 4263 5375 30  0001 C CNN
+F 3 "~" H 4225 5525 60  0000 C CNN
+	1    4225 5525
+	-1   0    0    1   
+$EndComp
+Text Label 4475 4225 0    60   ~ 0
+OUT+
+Text Label 4475 4925 0    60   ~ 0
+V_OUT
+Text Label 4475 5125 0    60   ~ 0
+CUR_OUT
+Text Label 3600 5875 0    60   ~ 0
+GND
+Text Label 2275 4225 0    60   ~ 0
+BAT+
+$Comp
+L GND #PWR020
+U 1 1 581785B1
+P 3675 6100
+F 0 "#PWR020" H 3675 6100 30  0001 C CNN
+F 1 "GND" H 3675 6030 30  0001 C CNN
+F 2 "" H 3675 6100 60  0001 C CNN
+F 3 "" H 3675 6100 60  0001 C CNN
+	1    3675 6100
+	1    0    0    -1  
+$EndComp
+Text GLabel 4925 4925 2    60   Input ~ 0
+ADC_VBAT
+Text GLabel 4925 5125 2    60   Input ~ 0
+ADC_CURRENT
+$Comp
+L CONN_1 VBAT1
+U 1 1 58178B95
+P 4875 4225
+F 0 "VBAT1" H 4955 4225 40  0000 L CNN
+F 1 "CONN_1" H 4875 4280 30  0001 C CNN
+F 2 "custom:PAD_2x3" H 4875 4225 60  0001 C CNN
+F 3 "" H 4875 4225 60  0000 C CNN
+	1    4875 4225
+	1    0    0    -1  
+$EndComp
+Text GLabel 4925 4400 2    60   Input ~ 0
+VBAT
+$Comp
+L CONN_1 GND_IN1
+U 1 1 58178F7C
+P 5075 5425
+F 0 "GND_IN1" H 5155 5425 40  0000 L CNN
+F 1 "GND" H 5075 5480 30  0001 C CNN
+F 2 "custom:PAD_2x3" H 5075 5425 60  0001 C CNN
+F 3 "" H 5075 5425 60  0000 C CNN
+	1    5075 5425
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 VBAT_IN1
+U 1 1 58179259
+P 2075 4225
+F 0 "VBAT_IN1" H 2155 4225 40  0000 L CNN
+F 1 "CONN_1" H 2075 4280 30  0001 C CNN
+F 2 "custom:PAD_2x3" H 2075 4225 60  0001 C CNN
+F 3 "" H 2075 4225 60  0000 C CNN
+	1    2075 4225
+	-1   0    0    1   
+$EndComp
+$Comp
+L CUSTOM_C C30
+U 1 1 581CF339
+P 3925 1975
+F 0 "C30" H 4040 2013 40  0000 L CNN
+F 1 "10n" H 4040 1937 40  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 3963 1825 30  0001 C CNN
+F 3 "" H 3925 1975 60  0000 C CNN
+	1    3925 1975
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 GND_MOUNT_1
+U 1 1 581F966F
+P 5075 5525
+F 0 "GND_MOUNT_1" H 5155 5525 40  0000 L CNN
+F 1 "GND" H 5075 5580 30  0001 C CNN
+F 2 "custom:TP_1x1" H 5075 5525 60  0001 C CNN
+F 3 "" H 5075 5525 60  0000 C CNN
+	1    5075 5525
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 GND_MOUNT_2
+U 1 1 581F975F
+P 5075 5600
+F 0 "GND_MOUNT_2" H 5155 5600 40  0000 L CNN
+F 1 "GND" H 5075 5655 30  0001 C CNN
+F 2 "custom:TP_1x1" H 5075 5600 60  0001 C CNN
+F 3 "" H 5075 5600 60  0000 C CNN
+	1    5075 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L hole H1
+U 1 1 5845D1DE
+P 6200 2550
+F 0 "H1" H 6256 2837 60  0000 C CNN
+F 1 "hole" H 6256 2731 60  0000 C CNN
+F 2 "custom:mouting_hole" H 6200 2550 60  0001 C CNN
+F 3 "" H 6200 2550 60  0000 C CNN
+	1    6200 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L hole H2
+U 1 1 5845D3B0
+P 6200 3050
+F 0 "H2" H 6256 3337 60  0000 C CNN
+F 1 "hole" H 6256 3231 60  0000 C CNN
+F 2 "custom:mouting_hole" H 6200 3050 60  0001 C CNN
+F 3 "" H 6200 3050 60  0000 C CNN
+	1    6200 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L hole H3
+U 1 1 5845D43C
+P 6200 3500
+F 0 "H3" H 6256 3787 60  0000 C CNN
+F 1 "hole" H 6256 3681 60  0000 C CNN
+F 2 "custom:mouting_hole" H 6200 3500 60  0001 C CNN
+F 3 "" H 6200 3500 60  0000 C CNN
+	1    6200 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L hole H4
+U 1 1 5845D4A1
+P 6200 3950
+F 0 "H4" H 6256 4237 60  0000 C CNN
+F 1 "hole" H 6256 4131 60  0000 C CNN
+F 2 "custom:mouting_hole" H 6200 3950 60  0001 C CNN
+F 3 "" H 6200 3950 60  0000 C CNN
+	1    6200 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 1600 2900 1600
+Wire Wire Line
+	1750 2425 1750 2225
+Wire Wire Line
+	1750 2225 4275 2225
+Wire Wire Line
+	3350 2225 3350 1950
+Wire Wire Line
+	2300 2100 2300 2225
+Connection ~ 2300 2225
+Wire Wire Line
+	2300 1600 2300 1800
+Connection ~ 2300 1600
+Wire Wire Line
+	4275 2225 4275 2125
+Connection ~ 3350 2225
+Wire Wire Line
+	3800 1600 4725 1600
+Wire Wire Line
+	4275 1600 4275 1825
+Connection ~ 4275 1600
+Wire Wire Line
+	2900 1750 2700 1750
+Wire Wire Line
+	2700 1750 2700 1600
+Connection ~ 2700 1600
+Wire Wire Line
+	3675 4225 4725 4225
+Wire Wire Line
+	4075 3725 4175 3725
+Wire Wire Line
+	4175 3725 4175 4400
+Connection ~ 4175 4225
+Wire Wire Line
+	2975 3725 2825 3725
+Wire Wire Line
+	2825 3725 2825 4425
+Connection ~ 2825 4225
+Wire Wire Line
+	4075 3425 4325 3425
+Wire Wire Line
+	2825 4725 2825 5375
+Wire Wire Line
+	2825 4925 4925 4925
+Wire Wire Line
+	3125 4925 3125 5375
+Connection ~ 2825 4925
+Wire Wire Line
+	2825 5925 2825 5675
+Connection ~ 2825 5925
+Wire Wire Line
+	4425 3175 4425 5375
+Wire Wire Line
+	2625 3575 2625 5925
+Wire Wire Line
+	2625 3575 2975 3575
+Connection ~ 2625 5925
+Wire Wire Line
+	4225 5125 4225 5375
+Wire Wire Line
+	4225 5125 4925 5125
+Connection ~ 4425 5125
+Wire Wire Line
+	4425 3175 2625 3175
+Wire Wire Line
+	2625 3175 2625 3425
+Wire Wire Line
+	2625 3425 2975 3425
+Wire Wire Line
+	4325 3425 4325 3975
+Wire Wire Line
+	4325 3975 3075 3975
+Wire Wire Line
+	3075 3975 3075 4225
+Connection ~ 3075 4225
+Wire Wire Line
+	4925 5325 4625 5325
+Wire Wire Line
+	4625 5325 4625 5925
+Connection ~ 3125 4925
+Wire Wire Line
+	4425 5925 4425 5675
+Connection ~ 4425 5925
+Wire Wire Line
+	4225 5925 4225 5675
+Connection ~ 4225 5925
+Wire Wire Line
+	3125 5925 3125 5675
+Connection ~ 3125 5925
+Wire Wire Line
+	2375 5275 2375 5925
+Wire Wire Line
+	2375 4225 2375 4975
+Connection ~ 2375 4225
+Wire Wire Line
+	2225 4225 3375 4225
+Wire Wire Line
+	2375 5925 4625 5925
+Wire Wire Line
+	3675 6100 3675 5925
+Connection ~ 3675 5925
+Wire Wire Line
+	4175 4400 4925 4400
+Wire Wire Line
+	4925 5425 4625 5425
+Connection ~ 4625 5425
+Wire Wire Line
+	3800 1750 3925 1750
+Wire Wire Line
+	3925 1750 3925 1825
+Wire Wire Line
+	3925 2125 3925 2225
+Connection ~ 3925 2225
+Wire Wire Line
+	4925 5600 4625 5600
+Connection ~ 4625 5600
+Wire Wire Line
+	4925 5525 4625 5525
+Connection ~ 4625 5525
+$EndSCHEMATC

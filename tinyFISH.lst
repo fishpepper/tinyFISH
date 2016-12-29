@@ -1,0 +1,80 @@
+eeschema (2013-jul-07)-stable  >> Creation date: Tue 20 Sep 2016 10:55:42 AM CEST
+#Cmp ( order = Reference )
+| 3V3        TP          
+| ADC0       TP          
+| ADC1       TP          
+| ANT1       TP          
+| C1         1u          
+| C2         12p         
+| C3         100n        
+| C4         100p        
+| C5         220p        
+| C6         12p         
+| C7         100p        
+| C8         1p          
+| C9         1p          
+| C10        1u          
+| C11        1p8         
+| C12        1p5         
+| C13        100n        
+| D1         LED         
+| D2         LED         
+| DEBUG1     TP          
+| GND1       TP          
+| ISP_CLOCK1 TP          
+| ISP_DATA1  TP          
+| L1         1.2nH       
+| L2         1.2nH       
+| L3         1.2nH       
+| R1         5k6         
+| R2         10k         
+| R3         56k         
+| R4         1k          
+| R5         10k         
+| R6         1k          
+| SBUS_PPM1  TP          
+| U1         CC2510      
+| X1         SMD_CRYSTAL_4PIN
+| ~RESET1    TP          
+#End Cmp
+
+#Cmp ( order = Value )
+| TP           ADC0      
+| TP           ~RESET1   
+| TP           SBUS_PPM1 
+| TP           ISP_DATA1 
+| TP           ISP_CLOCK1
+| 1p           C8        
+| 1p           C9        
+| 12p          C2        
+| 12p          C6        
+| 100p         C4        
+| 100p         C7        
+| 220p         C5        
+| 100n         C3        
+| TP           3V3       
+| TP           ADC1      
+| TP           ANT1      
+| 1p5          C12       
+| 1p8          C11       
+| 100n         C13       
+| 1u           C1        
+| 1u           C10       
+| LED          D1        
+| LED          D2        
+| TP           DEBUG1    
+| TP           GND1      
+| 1.2nH        L1        
+| 1.2nH        L2        
+| 1.2nH        L3        
+| 1k           R4        
+| 1k           R6        
+| 5k6          R1        
+| 10k          R2        
+| 10k          R5        
+| 56k          R3        
+| CC2510       U1        
+| SMD_CRYSTAL_4PIN X1        
+#End Cmp
+
+#End List

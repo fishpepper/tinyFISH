@@ -1,0 +1,215 @@
+EESchema Schematic File Version 2
+LIBS:tinyFISH-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:custom
+LIBS:tinyFISH-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MPU-6000 U2
+U 1 1 5814A788
+P 5050 3150
+F 0 "U2" H 5741 3203 60  0000 L CNN
+F 1 "MPU-6000" H 5741 3097 60  0000 L CNN
+F 2 "custom:QFN-24" H 4900 3150 60  0001 C CNN
+F 3 "" H 4900 3150 60  0000 C CNN
+	1    5050 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR014
+U 1 1 5814A83D
+P 6700 2950
+F 0 "#PWR014" H 6700 2950 30  0001 C CNN
+F 1 "GND" H 6700 2880 30  0001 C CNN
+F 2 "" H 6700 2950 60  0001 C CNN
+F 3 "" H 6700 2950 60  0001 C CNN
+	1    6700 2950
+	1    0    0    -1  
+$EndComp
+Text GLabel 6675 3400 2    60   Input ~ 0
+3V
+$Comp
+L CUSTOM_C C14
+U 1 1 5814A87B
+P 5100 4550
+F 0 "C14" H 5215 4588 40  0000 L CNN
+F 1 "100n" H 5215 4512 40  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 5138 4400 30  0001 C CNN
+F 3 "" H 5100 4550 60  0000 C CNN
+	1    5100 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CUSTOM_C C16
+U 1 1 5814A8E1
+P 6400 3150
+F 0 "C16" H 6515 3188 40  0000 L CNN
+F 1 "100n" H 6515 3112 40  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 6438 3000 30  0001 C CNN
+F 3 "" H 6400 3150 60  0000 C CNN
+	1    6400 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CUSTOM_C C15
+U 1 1 5814A96D
+P 5200 2125
+F 0 "C15" H 5315 2163 40  0000 L CNN
+F 1 "2n2" H 5315 2087 40  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 5238 1975 30  0001 C CNN
+F 3 "" H 5200 2125 60  0000 C CNN
+	1    5200 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR015
+U 1 1 5814AB10
+P 5100 4975
+F 0 "#PWR015" H 5100 4975 30  0001 C CNN
+F 1 "GND" H 5100 4905 30  0001 C CNN
+F 2 "" H 5100 4975 60  0001 C CNN
+F 3 "" H 5100 4975 60  0001 C CNN
+	1    5100 4975
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR016
+U 1 1 5814ABB1
+P 5375 1925
+F 0 "#PWR016" H 5375 1925 30  0001 C CNN
+F 1 "GND" H 5375 1855 30  0001 C CNN
+F 2 "" H 5375 1925 60  0001 C CNN
+F 3 "" H 5375 1925 60  0001 C CNN
+	1    5375 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR017
+U 1 1 5814ADCB
+P 3800 2950
+F 0 "#PWR017" H 3800 2950 30  0001 C CNN
+F 1 "GND" H 3800 2880 30  0001 C CNN
+F 2 "" H 3800 2950 60  0001 C CNN
+F 3 "" H 3800 2950 60  0001 C CNN
+	1    3800 2950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4350 3400
+NoConn ~ 4800 3850
+Text GLabel 3425 4100 0    60   Input ~ 0
+MPU_SPI_CS
+Text GLabel 3425 4225 0    60   Input ~ 0
+MPU_SPI_MISO
+Wire Wire Line
+	5200 2275 5200 2450
+Wire Wire Line
+	5200 1850 5200 1975
+Wire Wire Line
+	5200 1850 5375 1850
+Wire Wire Line
+	5375 1850 5375 1925
+Wire Wire Line
+	5100 3850 5100 4400
+Wire Wire Line
+	5100 4700 5100 4975
+Wire Wire Line
+	5700 3400 6675 3400
+Wire Wire Line
+	5700 2900 6700 2900
+Wire Wire Line
+	6700 2900 6700 2950
+Wire Wire Line
+	6400 3300 6400 3400
+Connection ~ 6400 3400
+Wire Wire Line
+	6400 2900 6400 3000
+Connection ~ 6400 2900
+Wire Wire Line
+	4350 2900 3800 2900
+Wire Wire Line
+	3800 2900 3800 2950
+Wire Wire Line
+	3425 4100 4900 4100
+Wire Wire Line
+	4900 4100 4900 3850
+Wire Wire Line
+	3425 4225 5000 4225
+Wire Wire Line
+	5000 4225 5000 3850
+Text GLabel 3425 2325 0    60   Input ~ 0
+MPU_SPI_MOSI
+Wire Wire Line
+	4800 2450 4800 2325
+Wire Wire Line
+	4800 2325 3425 2325
+Text GLabel 3425 2200 0    60   Input ~ 0
+MPU_SPI_SCK
+Wire Wire Line
+	3425 2200 4900 2200
+Wire Wire Line
+	4900 2200 4900 2450
+NoConn ~ 5000 2450
+NoConn ~ 5100 2450
+NoConn ~ 5300 2450
+Text GLabel 6800 4100 2    60   Input ~ 0
+MPU_EXTI
+Wire Wire Line
+	5300 4100 6800 4100
+Wire Wire Line
+	5300 4100 5300 3850
+$Comp
+L GND #PWR018
+U 1 1 5814B018
+P 5200 3950
+F 0 "#PWR018" H 5200 3950 30  0001 C CNN
+F 1 "GND" H 5200 3880 30  0001 C CNN
+F 2 "" H 5200 3950 60  0001 C CNN
+F 3 "" H 5200 3950 60  0001 C CNN
+	1    5200 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3950 5200 3850
+$EndSCHEMATC
