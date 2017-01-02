@@ -28,7 +28,7 @@
      inkscape:cx="603.15766"
      inkscape:cy="303.96612"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer3"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1145"
@@ -109,7 +109,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -6956,7 +6956,7 @@
            sodipodi:role="line"
            id="tspan21264"
            x="763.50208"
-           y="-24.138548"></tspan></text>
+           y="-24.138548" /></text>
       <text
          xml:space="preserve"
          style="font-size:11.68969822px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:MathJax_Size1;-inkscape-font-specification:Impact Bold"
@@ -7067,7 +7067,7 @@
            id="tspan6520-2-2-8-3-8-0-1"
            x="651.42505"
            y="-358.72546"
-           style="font-size:28px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu Medium">IN -</tspan><tspan
+           style="font-size:28px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu Medium">IN +</tspan><tspan
            sodipodi:role="line"
            x="651.42505"
            y="-323.72546"
