@@ -28,14 +28,14 @@
      inkscape:window-height="1145"
      id="namedview38204"
      showgrid="false"
-     inkscape:zoom="0.84306057"
+     inkscape:zoom="1"
      inkscape:cx="312.08639"
-     inkscape:cy="414.34698"
+     inkscape:cy="561.15203"
      inkscape:window-x="-3"
      inkscape:window-y="-3"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer2"
-     showguides="true"
+     showguides="false"
      inkscape:guide-bbox="true">
     <sodipodi:guide
        orientation="1,0"
@@ -6795,7 +6795,7 @@
          sodipodi:role="line"
          x="24.81061"
          y="354.17059"
-         id="tspan25183-3-26-1-6-4-5-2">BUZ-</tspan></text>
+         id="tspan25183-3-26-1-6-4-5-2" /></text>
     <flowRoot
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Impact;-inkscape-font-specification:Impact Bold"
        id="flowRoot26849"
