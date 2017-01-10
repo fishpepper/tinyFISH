@@ -1,5 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:tinyFISH-rescue
+LIBS:custom
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -11,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -30,9 +29,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:custom
 LIBS:tinyFISH-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8

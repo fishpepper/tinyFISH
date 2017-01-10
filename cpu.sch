@@ -1,5 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:tinyFISH-rescue
+LIBS:custom
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -11,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -30,9 +29,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:custom
 LIBS:tinyFISH-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -222,7 +220,7 @@ L CUSTOM_R R8
 U 1 1 5814F592
 P 2575 6600
 F 0 "R8" V 2390 6600 40  0000 C CNN
-F 1 "330" V 2466 6600 40  0000 C CNN
+F 1 "100" V 2466 6600 40  0000 C CNN
 F 2 "Resistors_SMD:R_0402" V 2505 6600 30  0001 C CNN
 F 3 "" H 2575 6600 30  0000 C CNN
 	1    2575 6600

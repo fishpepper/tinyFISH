@@ -1,5 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:tinyFISH-rescue
+LIBS:custom
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -11,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -30,9 +29,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:custom
 LIBS:tinyFISH-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -265,17 +263,6 @@ F 3 "" H 3925 1975 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 GND_MOUNT_1
-U 1 1 581F966F
-P 5075 5525
-F 0 "GND_MOUNT_1" H 5155 5525 40  0000 L CNN
-F 1 "GND" H 5075 5580 30  0001 C CNN
-F 2 "custom:TP_1x1" H 5075 5525 60  0001 C CNN
-F 3 "" H 5075 5525 60  0000 C CNN
-	1    5075 5525
-	1    0    0    -1  
-$EndComp
-$Comp
 L CONN_1 GND_MOUNT_2
 U 1 1 581F975F
 P 5075 5600
@@ -447,7 +434,4 @@ Connection ~ 3925 2225
 Wire Wire Line
 	4925 5600 4625 5600
 Connection ~ 4625 5600
-Wire Wire Line
-	4925 5525 4625 5525
-Connection ~ 4625 5525
 $EndSCHEMATC
