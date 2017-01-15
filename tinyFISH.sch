@@ -30,7 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:tinyFISH-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
