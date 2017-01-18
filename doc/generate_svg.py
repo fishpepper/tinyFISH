@@ -81,7 +81,7 @@ def plot_job(job, output_directory, temp_dir):
         subprocess.check_call([
             'inkscape',
             '--export-area-drawing',
-            '--export-width=1010',
+            '--export-dpi=600',
             '--export-png', final_png,
             '--export-background', '#FFFFFF',
             final_svg,
